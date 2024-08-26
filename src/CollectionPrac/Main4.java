@@ -55,9 +55,7 @@ public class Main4 {
 
         long totalFinal = points.stream()
                 .mapToInt(point->
-                {
-                   return point.getX()+ point.getY();
-                }
+                  point.getX()+ point.getY()
                 )
                 .sum();
         System.out.println("Res: "+totalFinal);

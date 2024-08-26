@@ -1,3 +1,4 @@
+import GaHamTaoDo.Ga;
 import Khach.KhachHang;
 import List.DanhSach;
 
@@ -20,3 +21,14 @@ public class Main {
 //        System.out.println("Tien: "+khachHang.tinhTien());
     }
 }
+// System.out.println("Nhap so ga (g): ");
+//Ga ga = new Ga;
+//ga = scanner.nextInt();
+//        System.out.println("Nhap so hatsen (g): ");
+//        this.hatsen = scanner.nextInt();
+//        System.out.println("Nhap so carot (g): ");
+//        this.carot = scanner.nextInt();
+//        System.out.println("Nhap so taodo (g): ");
+//        this.taodo = scanner.nextInt();
+//        System.out.println("Nhap so namdongco (g): ");
+//        this.namdongco = scanner.nextInt();
