@@ -8,16 +8,5 @@ public class NamDongCo extends NguyenLieu{
         this.Protein = 15;
         this.Calo=10;
     }
-    int Sl;
-
-    @Override
-    public int getSl() {
-        return Sl;
-    }
-
-    @Override
-    public void setSl(int sl) {
-        Sl = sl;
-    }
 
 }

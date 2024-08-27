@@ -2,6 +2,7 @@ package CollectionPrac;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 public class Main4 {
@@ -67,7 +68,20 @@ public class Main4 {
                 .reduce(0, (res,value) -> res + value);
         System.out.println("RESULT: "+ vd2);
     }
+    public static void test2(){
+        String cauTho = "Pho1 Pho2 Pho3 Pho1 Pho2 Pho1";
+        HashMap<String, Integer> hashMap = new HashMap<>();
+        String[] words = cauTho.split(" ");
+        for (String i : words){
+            int dem = hashMap.getOrDefault(i,0);
+            hashMap.put(i,dem+1);
+        }
+        for(String i : hashMap.keySet()){
+            System.out.println(hashMap.get(i));
+        }
+    }
     public static void main(String[] args){
         test_stream();
+        test2();
     }
 }

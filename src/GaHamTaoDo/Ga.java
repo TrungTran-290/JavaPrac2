@@ -8,16 +8,5 @@ public class Ga extends NguyenLieu{
         this.Protein = 17;
         this.Calo=211;
     }
-    int Sl;
-
-    @Override
-    public int getSl() {
-        return Sl;
-    }
-
-    @Override
-    public void setSl(int sl) {
-        Sl = sl;
-    }
 
 }

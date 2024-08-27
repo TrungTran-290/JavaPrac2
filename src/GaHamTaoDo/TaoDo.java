@@ -8,15 +8,4 @@ public class TaoDo extends NguyenLieu{
         this.Protein = 1;
         this.Calo=52;
     }
-    int Sl;
-
-    @Override
-    public int getSl() {
-        return Sl;
-    }
-
-    @Override
-    public void setSl(int sl) {
-        Sl = sl;
-    }
 }
