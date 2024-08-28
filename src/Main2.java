@@ -15,5 +15,7 @@ public class Main2 {
         list.cau2();
 //        list.cau2_2();
         System.out.println(list.cau3());
+
+
     }
 }
